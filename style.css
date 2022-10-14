@@ -1,0 +1,41 @@
+.banner {
+    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #ffffff;
+} 
+
+img.tengah {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+p {
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:767px) {
+    img.tengah {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        padding-top: 75%;
+        padding-bottom: 100%;
+        z-index: auto;
+        background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
+        background-position: 70%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
